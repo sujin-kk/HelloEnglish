@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".TestFragment">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="66dp"
+        android:layout_height="51dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/ic_baseline_spellcheck_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택형"
+        android:textSize="25dp"
+        android:paddingLeft="25dp"
+        android:textColor="@color/fore_mint"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiple-Choice Test"
+        android:textSize="18dp"
+        android:paddingLeft="25dp"
+        android:textColor="@color/fore_mint" />
+
+    <TextView
+        android:id="@+id/targetWord"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_btn"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="문제단어"
+        android:textColor="@color/fore_mint"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mean_1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Button"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mean_2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Button"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mean_3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Button"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mean_4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Button"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="@color/fore_mint"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
